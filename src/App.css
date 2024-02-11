@@ -1,0 +1,150 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.pimg{
+  width: 100%;
+  height: 20vh;
+}
+.numberdata{
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.namedata{
+  display: flex;
+  gap: 22px;
+  padding: 10px;
+
+
+}
+.citydata{
+  padding: 10px;
+
+  display: flex;
+  gap: 38px;
+}
+.cardnumber{
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+}
+.content{
+  display: flex;
+  justify-content:center;
+}
+.card-body{
+  background-color: grey;
+}
+.card{
+  border: 2px solid black;
+  padding: 10px 250px 0px 250px;
+}
+.quote{
+  justify-content: center;
+  display: flex;
+  color: azure;
+  padding-top:20px ;
+}
+.cardtitle{
+  padding-top: 15px;
+}
+
+
+input{
+  border: 1px dashed black;
+  border-radius: 10px;
+}
+
+
+
+.navbar{
+  display: flex;
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.navlogo{
+  color: black;
+  font-size: medium;
+  font-weight: 500;
+}
+.slidebar{
+  color: black;
+  font-size: medium;
+  font-weight: 500;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+}
+@media screen and (max-width:708px){
+  .navbar{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .pimg{
+    width: 100%;
+    height: 20vh;
+  }
+  .image{
+    position: relative;
+  }
+  .content{
+    display:flex;
+    justify-content:center;
+    color: azure;
+  }
+  .cardnumber{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    color: azure;
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+  }
+  .card{
+    padding: 10px;
+  }
+  .quote{
+    justify-content: center;
+    display: flex;
+    color: azure;
+    padding-top:20px ;
+  }
+  
+input{
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.numberdata{
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.namedata{
+  display: flex;
+  gap: 22px;
+  padding: 10px;
+
+
+}
+.citydata{
+  padding: 10px;
+
+  display: flex;
+  gap: 38px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+}
+  
+}
